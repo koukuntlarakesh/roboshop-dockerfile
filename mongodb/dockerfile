@@ -1,0 +1,3 @@
+FROM mongo:8
+COPY *.js /docker-entrypoint-initdb.d/ 
+# here  *.js /docker-entrypoint-initdb.d/   this says that  all the js files in current directory will be copied
